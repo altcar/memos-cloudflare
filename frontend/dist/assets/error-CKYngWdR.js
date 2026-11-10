@@ -1,1 +1,0 @@
-function e(e,t=`Unknown error`){return e instanceof Error?e.message:typeof e==`string`?e:e&&typeof e==`object`&&`message`in e?String(e.message):t}function t(t,n,r){let i=r?.context?`${r.context}: `:``,a=r?.fallbackMessage,o=r?.context?`${i}${e(t,a)}`:e(t,a);console.error(t),n(o),r?.onError?.(t)}export{t};

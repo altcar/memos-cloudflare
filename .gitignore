@@ -3,6 +3,7 @@ node_modules/
 */node_modules/
 
 # Build outputs
+dist/
 build/
 .output/
 
@@ -75,6 +76,7 @@ fresh-start.sh
 # 项目重构后的额外忽略
 backend/node_modules/
 frontend/node_modules/
+frontend/dist/
 frontend/.vite/
 docs/temp/
 
