@@ -23,7 +23,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "memos"
-database_id = "b14d1661-a470-4fbd-bb71-f8600340ab54"
+database_id = "9571f4dc-9b54-4a2b-ba7c-5ea6933283a3"
 
 [[r2_buckets]]
 binding = "R2"
